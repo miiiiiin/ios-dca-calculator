@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,8 @@
 		7DF25AC226006A9C005C0A24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF25AC026006A9C005C0A24 /* Main.storyboard */; };
 		7DF25AC426006A9E005C0A24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF25AC326006A9E005C0A24 /* Assets.xcassets */; };
 		7DF25AC726006A9E005C0A24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF25AC526006A9E005C0A24 /* LaunchScreen.storyboard */; };
+		7DF25AD426006CC0005C0A24 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF25AD326006CC0005C0A24 /* SearchTableViewController.swift */; };
+		7DF25AD926006FE4005C0A24 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF25AD826006FE4005C0A24 /* SearchTableViewCell.swift */; };
 		95A5980609BFADFD8A6D537A /* Pods_ios_dca_calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A85F0C3ABEF060A026A8B6 /* Pods_ios_dca_calculator.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 		7DF25AC326006A9E005C0A24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DF25AC626006A9E005C0A24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DF25AC826006A9E005C0A24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DF25AD326006CC0005C0A24 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		7DF25AD826006FE4005C0A24 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
 		A0A85F0C3ABEF060A026A8B6 /* Pods_ios_dca_calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ios_dca_calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -48,7 +52,6 @@
 				045F69339A1BD006E03CE124 /* Pods-ios-dca-calculator.debug.xcconfig */,
 				2B6BD9A0363ECD9A7D03926A /* Pods-ios-dca-calculator.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,6 +84,8 @@
 		7DF25AB926006A9C005C0A24 /* ios-dca-calculator */ = {
 			isa = PBXGroup;
 			children = (
+				7DF25AD726006FD5005C0A24 /* View */,
+				7DF25AD626006FD0005C0A24 /* Controller */,
 				7DF25ABA26006A9C005C0A24 /* AppDelegate.swift */,
 				7DF25ABC26006A9C005C0A24 /* SceneDelegate.swift */,
 				7DF25ABE26006A9C005C0A24 /* ViewController.swift */,
@@ -90,6 +95,22 @@
 				7DF25AC826006A9E005C0A24 /* Info.plist */,
 			);
 			path = "ios-dca-calculator";
+			sourceTree = "<group>";
+		};
+		7DF25AD626006FD0005C0A24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7DF25AD326006CC0005C0A24 /* SearchTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7DF25AD726006FD5005C0A24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7DF25AD826006FE4005C0A24 /* SearchTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +230,8 @@
 				7DF25ABF26006A9C005C0A24 /* ViewController.swift in Sources */,
 				7DF25ABB26006A9C005C0A24 /* AppDelegate.swift in Sources */,
 				7DF25ABD26006A9C005C0A24 /* SceneDelegate.swift in Sources */,
+				7DF25AD426006CC0005C0A24 /* SearchTableViewController.swift in Sources */,
+				7DF25AD926006FE4005C0A24 /* SearchTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
